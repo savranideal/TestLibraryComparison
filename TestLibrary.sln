@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assertion.XUnitTest", "Asse
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mocking", "Mocking", "{94B16DF6-823B-4BB5-9DB4-648842A9A202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mocking.Moq", "Mocking.XUnit\Mocking.Moq.csproj", "{05FD1E69-4A3A-4A62-BD47-3DD551FC316D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mocking.Moq", "Mocking.Moq\Mocking.Moq.csproj", "{05FD1E69-4A3A-4A62-BD47-3DD551FC316D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mocking.NSubstitute", "Mocking.NSubstitute\Mocking.NSubstitute.csproj", "{FB658DB5-8091-4A3E-9CDB-41AC733926D7}"
 EndProject
