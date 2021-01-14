@@ -23,8 +23,7 @@ namespace Integration.XUnit
         private TestServer _server;
         public HttpClient Client { get; }
 
-        public StartupFixture()
-            : this(Path.Combine(""))
+        public StartupFixture() : this(Path.Combine(""))
         {
         }
 
