@@ -9,6 +9,7 @@ using NUnit.Framework.Internal;
 namespace UnitTest.NUnit
 {
     [TestFixture]
+    [Parallelizable()]
     public class SyntaxExamples
     {
 

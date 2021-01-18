@@ -5,6 +5,7 @@ using TestLibrary;
 namespace UnitTest.NUnit
 {
     [TestFixture]
+    [Parallelizable()]
     public class MathDivisionUnitTest
     {
 

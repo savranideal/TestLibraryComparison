@@ -11,7 +11,7 @@ namespace Mocking.XUnit
     {
 
         [Theory]
-        [InlineData(false, 0)]
+        [InlineData(true, 0)]
         [InlineData(false, 7.99)]
         [InlineData(true, 8)]
         [InlineData(true, 10)]

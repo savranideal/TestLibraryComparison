@@ -33,7 +33,7 @@ namespace Integration.XUnit
             Client.Dispose();
             _server.Dispose();
         }
-
+        
         protected virtual void InitializeServices(IServiceCollection services)
         {
             var startupAssembly = typeof(TStartup).GetTypeInfo().Assembly;
@@ -77,8 +77,7 @@ namespace Integration.XUnit
             Client.DefaultRequestHeaders.Accept.Clear();
             Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
-
-
+        
         public static string GetProjectPath(string projectRelativePath, Assembly startupAssembly)
         {
             var projectName = startupAssembly.GetName().Name;

@@ -17,12 +17,8 @@ namespace UnitTest.XUnit
             
             var movieScore = new MovieScoreStub(score);
             var movieSuggestion = new MovieSuggestion(movieScore);
-            var title = Guid.NewGuid().ToString();
-
-            
-            var isGood = movieSuggestion.IsGoodMovie(title);
-
-            
+            var title = Guid.NewGuid().ToString(); 
+            var isGood = movieSuggestion.IsGoodMovie(title); 
             Assert.Equal(isGood, expected);
         }
 
