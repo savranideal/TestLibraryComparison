@@ -14,7 +14,7 @@ namespace Mocking.XUnit
         [InlineData(true, 0)]
         [InlineData(false, 7.99)]
         [InlineData(true, 8)]
-        [InlineData(true, 10)]
+        [InlineData(true, 10)] 
         public void CanSuggest(bool expected, double score)
         {
             
